@@ -1,4 +1,4 @@
-# Path Helpers [![Build Status](https://travis-ci.org/elidoran/cosmos-path-helpers.png?branch=master)](https://travis-ci.org/elidoran/cosmos-path-helpers)
+# Path Helpers [![Build Status](https://travis-ci.org/elidoran/cosmos-path-helpers.svg?branch=master)](https://travis-ci.org/elidoran/cosmos-path-helpers)
 
 I moved from [Iron Router](http://github.com/iron-meteor/iron-router) to FlowRouter and missed some of the helpers.
 
