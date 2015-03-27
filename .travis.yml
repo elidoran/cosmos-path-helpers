@@ -2,15 +2,23 @@
 language: node_js
 node_js:
   - "0.10"
-# All installation prerequisites before running your build / tests go here. 
+ 
+before_install:
+  - "node --version"
+  - "npm --version"
+
 install:
   # Install meteor
   - "curl https://install.meteor.com | /bin/sh"
   # Install spacejam
   - "npm install -g spacejam"
 
-# All build / test commands / scripts go here.
-# For testing meteor packages, that's all that is needed. 
+before_script:
+  - "meteor --version"
+  - "phantomjs -v"
+  - "spacejam package-version"
+  - "ls -al ./"
+ 
 script:
   - "spacejam test-packages ./"
 
