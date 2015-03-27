@@ -1,13 +1,13 @@
 Package.describe({
   name: 'cosmos:path-helpers',
-  version: '0.1.1',
+  version: '0.1.2',
   summary: 'Base package for pathFor/urlFor/linkTo/isPath helpers',
   git: 'http://github.com/elidoran/cosmos-path-helpers.git',
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0.4.2');
+  api.versionsFrom('1.0.4');
 
   api.use([
       'templating',
