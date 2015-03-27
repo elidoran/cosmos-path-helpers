@@ -133,7 +133,7 @@ Use them with `{{#if}}` in templates to control content
 
 ## How to implement in your app or package?
 
-A (simplified) example implementation using FlowRouter:
+A (simplified) example implementation using FlowRouter ([full impl](http://github.com/elidoran/cosmos-flow-router-path-helpers/blob/master/flowRouterImpl.coffee)):
 ```coffeescript
 # CoffeeScript:
 PathHelpers.path = (options) ->
