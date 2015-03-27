@@ -1,7 +1,7 @@
 Package.describe({
   name: 'cosmos:path-helpers',
   version: '0.1.0',
-  summary: 'Adds pathFor/urlFor/linkTo helpers which need a router implementation package',
+  summary: 'Base package for pathFor/urlFor/linkTo/isPath helpers',
   git: 'http://github.com/elidoran/cosmos-path-helpers.git',
   documentation: 'README.md'
 });
