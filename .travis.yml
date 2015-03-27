@@ -3,13 +3,11 @@ language: node_js
 node_js:
   - "0.10"
  
-before_install:
-  - "node --version"
-  - "npm --version"
-
 install:
   # Install meteor
   - "curl https://install.meteor.com | /bin/sh"
+  # no sudo, so, no meteor in path, let's update our path
+  - "export PATH=$PATH:$HOME/.meteor"
   # Install spacejam
   - "npm install -g spacejam"
 
